@@ -1,4 +1,4 @@
-﻿# Zigbee Coordinator Firmware for Ebyte E72-2G4M20S1E module (cc2652p chip)
+# Zigbee Coordinator Firmware for RF-STAR RF-BM-2652P2 module (cc2652p chip)
 
 ## Firmware description:
 
