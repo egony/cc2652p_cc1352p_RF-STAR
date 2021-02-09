@@ -6,11 +6,6 @@ Based on [Koenkk](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordin
 
 SDK 4.40.00.44
 
-Changes according E72-2G4M20S1E datasheet:
-- DIO5 and DIO6 controls RF switch
-- DC/DC converter enabled
-- SET_CCFG_MODE_CONF_XOSC_CAPARRAY_DELTA set to 0xFA (from E79-900DM2005S datasheet, but without it oscilator settings not related to hardware)
-
 Built for CC2652P1F chip variant (not for CC1352P1F).
 
 Default TX power: 20dBm. Power can be adjusted in zigbee2mqtt config:
