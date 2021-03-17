@@ -20,7 +20,12 @@ LEDs description (latest firmware):
 - Red (DIO6) flashed when APS frame received
 - When stick restarted - both double blinking
 
-Leds CAN NOT be turned OFF by zigbee2mqtt config - sorry, I still haven't skills for it.
+Leds can be turned OFF by zigbee2mqtt config, but on March 2021 you need to modify file zStackAdapter.js:
+
+    supportsLED() {
+        return __awaiter(this, void 0, void 0, function* () {
+          return true; //this.version.product !== tstype_1.ZnpVersion.zStack3x0; // <---- change like this
+        });
 
 Buttons description:
 - Flash button on DIO15 used for bootloader activation (for firmware update)
