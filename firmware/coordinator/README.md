@@ -15,9 +15,10 @@ Default TX power: 20dBm. Power can be adjusted in zigbee2mqtt config:
 
 Available TX power values: -20, -18, -15, -12, -10, -9, -6, -5, -3, 0, 1..5, 14..20
 
-LEDs description:
-- Green (DIO7) turns ON when High-power PA is not used (TX power from -20 to 5 dBm)
-- Red (DIO6) turns ON when High-power PA is used (TX power from 15 to 20 dBm)
+LEDs description (latest firmware):
+- Green (DIO7) turns ON when the network is running, blinking when joining enable
+- Red (DIO6) flashed when APS frame received
+- When stick restarted - both double blinking
 
 Leds CAN NOT be turned OFF by zigbee2mqtt config - sorry, I still haven't skills for it.
 
