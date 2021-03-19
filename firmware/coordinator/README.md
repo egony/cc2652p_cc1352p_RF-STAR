@@ -52,12 +52,8 @@ As I know, sharing source codes prohibited by TI, so there is no sources here. A
 - LEDs now shows some events - reboot, network startup, join, data recieved
 - LEDs now can be turned OFF by zigbee2mqtt config (require modifyed file zStackAdapter.js)
 
-### 2021-02-10
-
-- SDK 4.40.00.44
-
-### 2020-09-21
+### 2021-02-11
 
 - Initial release.
-- SDK 4.20.01.04
+- SDK 4.40.00.44
 - LEDs are supported
