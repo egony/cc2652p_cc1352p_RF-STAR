@@ -1,10 +1,10 @@
 # Zigbee Coordinator Firmware for RF-STAR RF-BM-2652P2 module (cc2652p chip)
 
-## Firmware description:
+## Firmware description
 
 Based on [Koenkk](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/firmware.patch) patches for Z-Stack_3.x.0.
 
-### Changes from original firmware:
+### Changes from original firmware
 - Built for CC2652P1F chip variant (not for CC1352P1F).
 - Default TX power: 20dBm. 
 - LEDs are supported
@@ -45,7 +45,7 @@ As I know, sharing source codes prohibited by TI, so there is no sources here. A
 
 ---
 
-## Changelog:
+## Changelog
 
 ### 2021-03-20
 
