@@ -8,4 +8,4 @@
 # ZigBee stick v4
 
 ### Hardware development for v4 stick based on RF-STAR modules (cc2652p/cc1352p chips)
-### Please, see [Wiki page](https://github.com/egony/cc2652p_cc1352p_RF-STAR/wiki) for details.
+### Please, see [Wiki page](https://github.com/egony/cc2652p_cc1352p_RF-STAR/wiki/Home-EN) for details.
