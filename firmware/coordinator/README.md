@@ -5,6 +5,7 @@
 Based on [Koenkk](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/firmware.patch) patches for Z-Stack_3.x.0.
 
 ### Changes from original firmware
+- SDK 4.40.04.04
 - Built for CC2652P1F chip variant (not for CC1352P1F).
 - Default TX power: 20dBm. 
 - LEDs are supported
@@ -55,5 +56,5 @@ As I know, sharing source codes prohibited by TI, so there is no sources here. A
 ### 2021-02-11
 
 - Initial release.
-- SDK 4.40.00.44
+- SDK 4.40.04.04
 - LEDs are supported
