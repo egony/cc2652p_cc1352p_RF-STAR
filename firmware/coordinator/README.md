@@ -5,7 +5,7 @@
 Based on [Koenkk](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/firmware.patch) patches for Z-Stack_3.x.0.
 
 ### Changes from original firmware
-- SDK 4.40.04.04
+- SDK 5.10.00.48
 - Built for CC2652P1F chip variant (not for CC1352P1F).
 - Default TX power: 20dBm. 
 - LEDs are supported
@@ -24,12 +24,7 @@ Available TX power values: -20, -18, -15, -12, -10, -9, -6, -5, -3, 0, 1..5, 14.
 - Red (DIO6) flashed when APS frame received
 - When stick restarted - both double blinking
 
-Leds can be turned OFF by zigbee2mqtt config, but on March 2021 you need to modify file zStackAdapter.js:
-
-    supportsLED() {
-        return __awaiter(this, void 0, void 0, function* () {
-          return true; //this.version.product !== tstype_1.ZnpVersion.zStack3x0; // <---- change like this
-        });
+Leds can be turned OFF/ON by zigbee2mqtt config.
 
 ### Buttons description
 - Flash button on DIO15 used for bootloader activation (for firmware update)
@@ -46,9 +41,13 @@ As I know, sharing source codes prohibited by TI, so there is no sources here. A
 
 ---
 
-## Changelog
+## Changelog (except KoenKK's patches update)
 
-### 2021-03-20
+### 2021-08-12
+
+- SDK 5.10.00.48
+
+#### 2021-03-20
 
 - LEDs now shows some events - reboot, network startup, join, data recieved
 - LEDs now can be turned OFF by zigbee2mqtt config (require modifyed file zStackAdapter.js)
