@@ -1,11 +1,13 @@
 # Zigbee Coordinator Firmware for RF-STAR RF-BM-2652P2 module (cc2652p chip)
 
+## Warning!!! Because of zigbee2mqtt 1.21 have broken LED support, see fixing details below.
+
 ## Firmware description
 
 Based on [Koenkk](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/firmware.patch) patches for Z-Stack_3.x.0.
 
 ### Changes from original firmware
-- SDK 5.10.00.48
+- SDK 5.20.00.52
 - Built for CC2652P1F chip variant (not for CC1352P1F).
 - Default TX power: 20dBm. 
 - LEDs are supported
@@ -26,6 +28,12 @@ Available TX power values: -20, -18, -15, -12, -10, -9, -6, -5, -3, 0, 1..5, 14.
 
 Leds can be turned OFF/ON by zigbee2mqtt config.
 
+Led support broken in zigbee2mqtt 1.21.0, so you should edit controller.js file like this:
+
+    nano /opt/zigbee2mqtt/node_modules/zigbee-herdsman/dist/controller/controller.js
+    
+![](https://github.com/egony/cc2652p_E72-2G4M20S1E/blob/master/images/z2m_fix.png)
+
 ### Buttons description
 - Flash button on DIO15 used for bootloader activation (for firmware update)
 - Reset button - you guess what it do.
@@ -42,6 +50,10 @@ As I know, sharing source codes prohibited by TI, so there is no sources here. A
 ---
 
 ## Changelog (except KoenKK's patches update)
+
+### 2021-09-02
+
+- SDK 5.20.00.52
 
 ### 2021-08-12
 
