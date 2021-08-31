@@ -34,6 +34,12 @@ Led support broken in zigbee2mqtt 1.21.0, so you should edit controller.js file 
     
 ![](https://github.com/egony/cc2652p_E72-2G4M20S1E/blob/master/images/z2m_fix.png)
 
+For firmware 2021-03-20 and earler find string
+
+    this.supportsLED_ = !zStack3x0 || (zStack3x0 && parseInt(this.version.revision) >= 20210430);
+    
+and change 2021 to 2020.
+
 ### Buttons description
 - Flash button on DIO15 used for bootloader activation (for firmware update)
 - Reset button - you guess what it do.
