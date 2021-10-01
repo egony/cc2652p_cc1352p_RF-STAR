@@ -1,5 +1,7 @@
 # Zigbee Coordinator Firmware for RF-STAR RF-BM-2652P2 module (cc2652p chip)
 
+## Warning!!! Firmware 20210902 have some bugs in SDK, so recommended firmware is 20210320.
+
 ## Warning!!! Because of zigbee2mqtt 1.21 have broken LED support, see fixing details below.
 
 ## Firmware description
