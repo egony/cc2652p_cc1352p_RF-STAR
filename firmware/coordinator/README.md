@@ -41,7 +41,8 @@ Strongly recommended to clear the memory after flashing (look about it on [Flash
 ### 2022-02-18
 
 - Built for CC1352P1F chip variant due to compiling for CC2652P1F chip variant produce same code now.
-- LEDs support code copy-pasted from [JetHome patches](https://github.com/jethome-ru/zigbee-firmware/tree/master/ti/coordinator/cc2652) for code compatibility and easy maintenance.
+- LEDs support code copy-pasted from [JetHome patches](https://github.com/jethome-ru/zigbee-firmware/tree/master/ti/coordinator/cc2652) for code compatibility and easy maintenance. But...
+- Hard reset (or unplug-plug) not required now when changing **disable_led** false -> true in configuration (restart z2m still required).
 
 ### 2021-09-02
 
