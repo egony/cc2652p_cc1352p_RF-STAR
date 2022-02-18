@@ -46,7 +46,7 @@ As I know, sharing source codes prohibited by TI, so there is no sources here. A
 ### 2022-02-18
 
 - Built for CC1352P1F chip variant due to compiling for CC2652P1F chip variant produce same code now.
-- LEDs support code now copy-pasted from [JetHome patches](https://github.com/jethome-ru/zigbee-firmware/tree/master/ti/coordinator/cc2652) for code compatibility and easy maintenance.
+- LEDs support code copy-pasted from [JetHome patches](https://github.com/jethome-ru/zigbee-firmware/tree/master/ti/coordinator/cc2652) for code compatibility and easy maintenance.
 
 ### 2021-09-02
 
