@@ -22,7 +22,7 @@ Available TX power values: -20, -18, -15, -12, -10, -9, -6, -5, -3, 0, 1..20
 ### LEDs description
 - Green (DIO7) turns ON when the network is running, blinking when joining enable
 - Red (DIO6) flashed when APS frame received
-- When stick restarted - both double blinking
+- When stick restarted - both double blinking (depends on zigbee-heardsman status and **disable_led** configuration)
 
 Leds can be turned OFF/ON by zigbee2mqtt config.
 
