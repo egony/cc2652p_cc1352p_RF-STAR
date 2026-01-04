@@ -40,6 +40,8 @@ Strongly recommended to clear the memory after flashing (look about it on [Flash
 
 - SDK 8.32.00.07
 - Green LED mode changed to OFF when joining disabled
+- DCDC and VDDR enabled
+- HF XOSC CAPARRAY disabled
 
 ### 2022-03-02
 
