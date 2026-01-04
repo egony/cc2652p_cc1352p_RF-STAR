@@ -8,8 +8,6 @@ Based on [Koenkk](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordin
 - Default TX power: 20dBm.
 - Extended LEDs support
 
-Actually this firmware now is very similar to [JetHome firmware](https://github.com/jethome-ru/zigbee-firmware/tree/master/ti/coordinator/cc2652).
-
 ### TX power ajust
 
 Power can be adjusted in zigbee2mqtt config:
@@ -20,7 +18,7 @@ Power can be adjusted in zigbee2mqtt config:
 Available TX power values: -20, -18, -15, -12, -10, -9, -6, -5, -3, 0, 1..20
 
 ### LEDs description
-- Green (DIO7) turns ON when the network is running, blinking when joining enable
+- Green (DIO7) turns OFF when the network is running, blinking when joining enable
 - Red (DIO6) flashed when APS frame received
 - When stick restarted - both double blinking (depends on zigbee-heardsman status and **disable_led** configuration)
 
@@ -37,6 +35,11 @@ Strongly recommended to clear the memory after flashing (look about it on [Flash
 ---
 
 ## Changelog
+
+### 2026-01-02
+
+- SDK 8.32.00.07
+- Green LED mode changed to OFF when joining disabled
 
 ### 2022-03-02
 
